@@ -35,8 +35,16 @@ body {
     max-width: 620px;
     margin: 0 auto;
 
+    &__title {
+        margin-bottom: 0;
+    }
+
     &__date {
         font-style: italic;
+    }
+
+    &__content p {
+        margin-top: 0;
     }
 
     &__nav {
@@ -101,15 +109,6 @@ body {
     align-items: center;
     width: 60%;
     margin: 0 auto;
-
-    @media screen and (min-width: 480px) {
-
-    }
-
-    .post__nav & {
-        width: 40%;
-        margin: 0;
-    }
 
     &__day {
         flex: 0 1 auto;
