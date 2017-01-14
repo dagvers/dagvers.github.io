@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<div class="blog-index">
+  {% assign post = site.posts.first %}
+  {% assign page = post %}
+  {% assign content = post.content %}
+  {% include post.html %}
+</div>
+
+<!-- <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -22,4 +29,4 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
-</div>
+</div> -->
