@@ -11,7 +11,9 @@ $friday: #D589B5;
 $saturday: #FFE003;
 $sunday: #067584;
 
-svg:not(:root) { overflow: hidden; }
+svg:not(:root) {
+    overflow: hidden;
+}
 
 svg,
 img {
@@ -21,7 +23,7 @@ img {
 
 body {
     margin: 0;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     font-family: "Times New Roman", Times, serif;
     font-size: 120%;
     line-height: 1.5;
@@ -31,74 +33,109 @@ body {
     }
 }
 
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 115%;
+    line-height: 1.2;
+
+    @media screen and (min-width: 480px) {
+        margin-top: 20px;
+        font-size: 140%;
+    }
+}
+
+.content p {
+    font-size: 90%;
+    margin-top: 0;
+
+    @media screen and (min-width: 480px) {
+        font-size: 100%;
+    }
+}
+
+.date {
+    font-style: italic;
+}
+
 .post {
     max-width: 620px;
     margin: 0 auto;
+}
 
-    &__title {
-        margin-bottom: 0;
-    }
+.nav {
+    display: flex;
+    font-size: 80%;
 
-    &__date {
-        font-style: italic;
-    }
+    &__prev {
+        text-decoration: none;
+        color: #000;
+        flex: 0 1 auto;
 
-    &__content p {
-        margin-top: 0;
-    }
-
-    &__nav {
-        display: flex;
-        font-size: 80%;
-
-        &__prev {
-            text-decoration: none;
-            color: #000;
-            flex: 0 1 auto;
-
-            &:before {
-                content: '←';
-                display: inline;
-            }
-        }
-
-        &__next {
-            flex: 0 1 auto;
-            margin-left: auto;
-            text-align: right;
-            text-decoration: none;
-            color: #000;
-
-            &:after {
-                content: '→';
-                display: inline;
-            }
-        }
-
-        &__day {
+        &:before {
+            content: '←';
             display: inline;
+        }
+    }
 
-            &--monday {
-                color: $monday;
-            }
-            &--tuesday {
-                color: $tuesday;
-            }
-            &--wednesday {
-                color: $wednesday;
-            }
-            &--thursday {
-                color: $thursday;
-            }
-            &--friday {
-                color: $friday;
-            }
-            &--saturday {
-                color: $saturday;
-            }
-            &--sunday {
-                color: $sunday;
-            }
+    &__next {
+        flex: 0 1 auto;
+        margin-left: auto;
+        text-align: right;
+        text-decoration: none;
+        color: #000;
+
+        &:after {
+            content: '→';
+            display: inline;
+        }
+    }
+
+    &__day {
+        display: inline;
+
+        &--monday {
+            color: $monday;
+        }
+        &--tuesday {
+            color: $tuesday;
+        }
+        &--wednesday {
+            color: $wednesday;
+        }
+        &--thursday {
+            color: $thursday;
+        }
+        &--friday {
+            color: $friday;
+        }
+        &--saturday {
+            color: $saturday;
+        }
+        &--sunday {
+            color: $sunday;
         }
     }
 }
@@ -107,7 +144,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 
     &__day {

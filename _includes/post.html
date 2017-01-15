@@ -14,24 +14,23 @@
                 </svg>
             </div>
         </div>
-
-        <h1 class="post__title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <h1 class="title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
-  <div class="post__content" itemprop="articleBody">
+  <div class="content" itemprop="articleBody">
     {{ content }}
-    <p itemprop="datePublished" content="{{ page.date | date: "%Y/%m/%d" }}" class="post__date">{{ page.date | date: "%-d/%-m/%Y" }}</p>
+    <p itemprop="datePublished" content="{{ page.date | date: "%Y/%m/%d" }}" class="date">{{ page.date | date: "%-d/%-m/%Y" }}</p>
   </div>
 
-  <nav class="post__nav">
+  <nav class="nav">
       {% if page.previous.url %}
-      <a class="post__nav__prev" href="{{page.previous.url}}">
-          <span class="post__nav__day post__nav__day--{{ page.previous.date | date: "%A" | downcase}}">{{ page.previous.date | date: "%A" | upcase | replace: "MONDAY", "MAAN" | replace: "TUESDAY", "DINS" | replace: "WEDNESDAY", "WOENS" | replace: "THURSDAY", "DONDER" | replace: "FRIDAY", "VRIJ" | replace: "SATURDAY", "ZATER" | replace: "SUNDAY", "ZON" }}</span>DAGVERS
+      <a class="nav__prev" href="{{page.previous.url}}">
+          <span class="nav__day nav__day--{{ page.previous.date | date: "%A" | downcase}}">{{ page.previous.date | date: "%A" | upcase | replace: "MONDAY", "MAAN" | replace: "TUESDAY", "DINS" | replace: "WEDNESDAY", "WOENS" | replace: "THURSDAY", "DONDER" | replace: "FRIDAY", "VRIJ" | replace: "SATURDAY", "ZATER" | replace: "SUNDAY", "ZON" }}</span>DAGVERS
       </a>
       {% endif %}
       {% if page.next.url %}
-      <a class="post__nav__next" href="{{page.next.url}}">
-          <span class="post__nav__day post__nav__day--{{ page.next.date | date: "%A" | downcase}}">{{ page.next.date | date: "%A" | upcase | replace: "MONDAY", "MAAN" | replace: "TUESDAY", "DINS" | replace: "WEDNESDAY", "WOENS" | replace: "THURSDAY", "DONDER" | replace: "FRIDAY", "VRIJ" | replace: "SATURDAY", "ZATER" | replace: "SUNDAY", "ZON" }}</span>DAGVERS
+      <a class="nav__next" href="{{page.next.url}}">
+          <span class="nav__day nav__day--{{ page.next.date | date: "%A" | downcase}}">{{ page.next.date | date: "%A" | upcase | replace: "MONDAY", "MAAN" | replace: "TUESDAY", "DINS" | replace: "WEDNESDAY", "WOENS" | replace: "THURSDAY", "DONDER" | replace: "FRIDAY", "VRIJ" | replace: "SATURDAY", "ZATER" | replace: "SUNDAY", "ZON" }}</span>DAGVERS
       </a>
       {% endif %}
   </nav>
