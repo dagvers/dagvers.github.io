@@ -18,7 +18,7 @@ title: Dagvers
 description: > # this means to ignore newlines until "baseurl:"
     Dagvers is een initiatief van Joris Roovers. Hij schrijft elke dag een kort verhaal over de dingen die hij meemaakt.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dagvers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.dagvers.nu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dagvers
 facebook_username:  365dagenvers
 instagram_username:  dagvers
