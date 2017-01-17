@@ -1,7 +1,12 @@
-<footer>
-    <div class="socials">
-        <a href="https://www.facebook.com/{{site.facebook_username}}"><img src="/assets/img/facebook.svg" alt="" /></a>
-        <a href="https://twitter.com/{{site.twitter_username}}"><img src="/assets/img/twitter.svg" alt="" /></a>
-        <a href="https://www.instagram.com/{{site.instagram_username}}"><img src="/assets/img/instagram.svg" alt="" /></a>
-    </div>
-</footer>
+  <footer>
+      <div class="socials">
+          <a href="#" class="socials__button socials__button--facebook" onClick='window.open("https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
+              <img src="/assets/img/facebook.svg" alt="" />
+              <span>Share</span>
+          </a>
+          <a href="#" class="socials__button socials__button--twitter" onClick='window.open("http://twitter.com/share?text={% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}&url={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
+              <img src="/assets/img/twitter.svg" alt="" />
+              <span>Tweet</span>
+          </a>
+      </div>
+  </footer>

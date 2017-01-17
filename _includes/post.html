@@ -1,19 +1,21 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header>
-        <div class="brand">
-            {{brand}}
-            <div class="brand__day">
-                <svg class="day day--{{ page.date | date: "%A" | downcase }}">
-                    <use xlink:href="#{{ page.date | date: "%A" | downcase }}" />
-                </svg>
+        <a href="/">
+            <div class="brand">
+                {{brand}}
+                <div class="brand__day">
+                    <svg class="day day--{{ page.date | date: "%A" | downcase }}">
+                        <use xlink:href="#{{ page.date | date: "%A" | downcase }}" />
+                    </svg>
+                </div>
+                <div class="brand__logo">
+                    <svg class="logo">
+                        <use xlink:href="#dagvers" />
+                    </svg>
+                </div>
             </div>
-            <div class="brand__logo">
-                <svg class="logo">
-                    <use xlink:href="#dagvers" />
-                </svg>
-            </div>
-        </div>
+        </a>
         <h1 class="title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 

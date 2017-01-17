@@ -23,6 +23,8 @@ twitter_username: dagvers
 facebook_username:  365dagenvers
 instagram_username:  dagvers
 
+google_analytics: "UA-90458805-1"
+
 # Build settings
 markdown: kramdown
 
