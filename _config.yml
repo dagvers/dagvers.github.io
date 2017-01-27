@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Dagvers
+author: Joris Roovers
 #email:
 description: > # this means to ignore newlines until "baseurl:"
     Dagvers is een initiatief van Joris Roovers. Hij schrijft elke dag een kort verhaal over de dingen die hij meemaakt.
@@ -44,3 +45,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Mr. Hyde"
