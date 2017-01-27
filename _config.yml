@@ -45,4 +45,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Mr. Hyde"
+      author: "Joris Roovers"
