@@ -1,12 +1,13 @@
-  <footer>
-      <div class="socials">
-          <a href="#" class="socials__button socials__button--facebook" onClick='window.open("https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
-              <img src="/assets/img/facebook.svg" alt="" />
-              <span>Share</span>
-          </a>
-          <a href="#" class="socials__button socials__button--twitter" onClick='window.open("http://twitter.com/share?text={% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}&url={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
-              <img src="/assets/img/twitter.svg" alt="" />
-              <span>Tweet</span>
-          </a>
-      </div>
+  <footer class="footer">
+    <div class="socials">
+        <a href="#" class="socials__button socials__button--facebook" onClick='window.open("https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
+            <img src="/assets/img/facebook.svg" alt="" />
+            <span>Share</span>
+        </a>
+        <a href="#" class="socials__button socials__button--twitter" onClick='window.open("http://twitter.com/share?text={% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}&url={{ page.url | replace:'index.html','' | absolute_url }}", "pop", "width=600, height=400, scrollbars=no");'>
+            <img src="/assets/img/twitter.svg" alt="" />
+            <span>Tweet</span>
+        </a>
+    </div>
+    <a href="{{ site.baseurl }}{% link pages/about.md %}" class="footer__about">Over Dagvers</a>
   </footer>

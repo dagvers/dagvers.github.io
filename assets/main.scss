@@ -11,6 +11,8 @@ $friday: #D589B5;
 $saturday: #FFE003;
 $sunday: #067584;
 
+$page: #c7c7c7;
+
 svg:not(:root) {
     overflow: hidden;
 }
@@ -58,6 +60,10 @@ body {
     &.date {
         margin-top: 10px;
         font-style: italic;
+    }
+
+    & + p {
+        margin-top: 10px;
     }
 }
 
@@ -117,6 +123,10 @@ body {
         }
         &--sunday {
             color: $sunday;
+        }
+
+        &--page {
+            color: $page;
         }
     }
 }
@@ -182,14 +192,36 @@ body {
         max-width: 84px;
         fill: $sunday;
     }
+    &--page {
+        max-width: 96px;
+        fill: $page;
+    }
 }
 
-.socials {
+.footer {
     margin-top: 30px;
-    text-align: right;
+    overflow: hidden;
 
     @media screen and (min-width: 480px) {
         margin-top: 60px;
+    }
+}
+
+.footer__about {
+    color: #000;
+
+    @media screen and (min-width: 480px) {
+        float: left;
+        margin-top: 0;
+    }
+}
+
+.socials {
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+        float: right;
+        margin-bottom: 0;
     }
 
     &__button {
