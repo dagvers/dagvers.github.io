@@ -3,6 +3,7 @@ layout: page
 title:
 permalink: /over-dagvers/
 logo: over
+---
 
 Ze noemden me vroeger Joris Driepinter. Ik snapte dat nooit,  totdat ik ontdekte dat het om een oude reclame ging, over een
 jongen die drie glazen melk dronk zodat hij groot en sterk werd.
