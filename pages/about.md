@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Over Dagvers
+title:
 permalink: /over-dagvers/
 logo: over
 ---
