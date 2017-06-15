@@ -15,6 +15,6 @@ wat ik je graag willen laten zien. Zodat jij ook anders naar de dingen
 om je heen gaat kijken. Zoals die man die in de supermarkt met een veel
 te jong kassameisje flirt terwijl zijn vrouw er witheet naast staat. Zie je het al voor je?
 
-/In 2016 schreef ik voor het eerst 365 dagen vers. Elke dag dus. In 2017
+*In 2016 schreef ik voor het eerst 365 dagen vers. Elke dag dus. In 2017
 doe ik het een jaar lang dunnetjes over. Wil je meer weten? Of liever een
-op maat gemaakte dagvers? Stuur dan een email naar [info@jorisroovers.nl](mailto:info@jorisroovers.nl)/
+op maat gemaakte dagvers? Stuur dan een email naar [info@jorisroovers.nl](mailto:info@jorisroovers.nl)*
