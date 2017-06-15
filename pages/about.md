@@ -9,6 +9,8 @@ Ze noemden me vroeger Joris Driepinter. Ik snapte dat nooit,  totdat ik ontdek
 jongen die drie glazen melk dronk zodat hij groot en sterk werd.
 Gek eigenlijk, want ik lust helemaal geen melk. Toch ben ik groot  geworden, alleen niet zo sterk. Daarom schrijf ik over alles wat ik tegenkom. In slechts vijf regels.
 
+&nbsp;
+
 Dagvers gaat over doodgewone dingen en over bijzonder gewone mensen.
 In alles zit een verhaal, zelfs in de hele kleine dingen. Dat is iets
 wat ik je graag willen laten zien. Zodat jij ook anders naar de dingen
