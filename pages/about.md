@@ -6,7 +6,7 @@ logo: over
 
 Ze noemden me vroeger Joris Driepinter. Ik snapte dat nooit,  totdat ik ontdekte dat het om een oude reclame ging, over een
 jongen die drie glazen melk dronk zodat hij groot en sterk werd.
-Gek eigenlijk, want ik lust helemaal geen melk. Toch ben ik groot  geworden, alleen niet zo sterk. Daarom schrijf ik.
+Gek eigenlijk, want ik lust helemaal geen melk. Toch ben ik groot  geworden, alleen niet zo sterk. Daarom schrijf ik over alles wat ik tegenkom.
 
 Dagvers gaat over doodgewone dingen en over bijzonder gewone mensen.
 In alles zit een verhaal, zelfs in de hele kleine dingen. Dat is iets
