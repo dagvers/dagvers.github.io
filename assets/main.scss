@@ -38,14 +38,19 @@ body {
 }
 
 .title {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 10px;
     font-size: 125%;
     line-height: 1.2;
 
+    
     @media screen and (min-width: 480px) {
-        margin-top: 50px;
+        margin-top: 60px;
         font-size: 160%;
+    }
+    
+    @media screen and (min-width: 700px) {
+        margin-top: 75px;
     }
 }
 
@@ -135,8 +140,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 120px;
     margin: 0 auto;
+
+    @media screen and (min-width: 480px) {
+        width: 200px;
+    }
 
     &__logo {
         flex: 0 1 auto;
