@@ -4,11 +4,6 @@
         <a href="/">
             <div class="brand">
                 {{brand}}
-                <div class="brand__day">
-                    <svg class="day day--{{ page.date | date: "%A" | downcase }}">
-                        <use xlink:href="#{{ page.date | date: "%A" | downcase }}" />
-                    </svg>
-                </div>
                 <div class="brand__logo">
                     <svg class="logo">
                         <use xlink:href="#dagvers" />

@@ -1,10 +1,5 @@
 <div class="brand">
     {{brand}}
-    <div class="brand__day">
-        <svg class="day day--{{ include.date | date: "%A" | downcase }}">
-            <use xlink:href="#{{ include.date | date: "%A" | downcase }}" />
-        </svg>
-    </div>
     <div class="brand__logo">
         <svg class="logo" preserveAspectRatio="xMidYMid">
             <use xlink:href="#dagvers" />
